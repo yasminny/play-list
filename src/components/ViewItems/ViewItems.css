@@ -1,0 +1,36 @@
+.list {
+  width: 100%;
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  overflow-y: scroll;
+  border: 1px solid;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  padding: 0 10px;
+  position: relative;
+}
+
+.item p {
+  display: inline-block;
+}
+
+.duration {
+  margin-left: 20px;
+}
+
+span {
+  position: absolute;
+  display: none;
+  bottom: 0;
+  left: 33%;
+  color: blue;
+}
+
+.item:hover span {
+  display: inline-block;
+}

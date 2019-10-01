@@ -1,0 +1,15 @@
+.inputWrapper {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 70%;
+  padding-left: 10px;
+}
+
+button {
+  width: 20%;
+}

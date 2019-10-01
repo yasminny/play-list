@@ -1,0 +1,12 @@
+.listWrapper {
+  width: 400px;
+  padding: 13px 25px;
+  border: 1px solid;
+  position: relative;
+}
+
+.error {
+  position: absolute;
+  color: red;
+  top: 37px;
+}
